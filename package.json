@@ -1,5 +1,5 @@
 {
-  "name": "yzkgym-community-site",
+  "name": "community-site",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "https://github.com/rails/webpacker",
