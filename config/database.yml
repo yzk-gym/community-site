@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: db/community_site_development
+  database: community_site_development
 
 test:
   <<: *default
-  database: db/community_site_test
+  database: community_site_test
 
 production:
   <<: *default
-  database: db/community_site_production
+  database: community_site_production
