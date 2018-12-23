@@ -1,9 +1,4 @@
-<dev>
-  <% @events.each do |event| %>
-    <div>
-      <%= event.begin_datetime %>
-      <%= event.title %>
-      <%= event.description %>
-    </div>
-  <% end %>
-</dev>
+<div id="app">
+  <navbar></navbar>
+</div>
+<%= javascript_pack_tag 'events' %>
