@@ -27,6 +27,9 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
+gem 'haml-rails'
+gem 'slim-rails'
+
 # pry
 gem 'pry-rails'
 gem 'pry-byebug'
